@@ -1,9 +1,9 @@
 {
   "Modules": {
     "Announcer": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "Delay": 2500,
         "Clientside": false,
