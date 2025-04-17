@@ -49,9 +49,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "Attack": true,
         "AttackSpeed": 20.0,
@@ -59,9 +59,9 @@
         "AttackWallsRange": 6.0,
         "AntiWeakness": "Silent",
         "Instant": true,
-        "Inhibit": false,
+        "Inhibit": true,
         "Place": true,
-        "DoublePlace": false,
+        "DoublePlace": true,
         "PlaceSpeed": 20.0,
         "PlaceRange": 6.0,
         "PlaceWallsRange": 6.0,
@@ -203,9 +203,9 @@
       }
     },
     "FakePlayer": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "Health": 20.0,
         "Absorption": 16,
@@ -346,11 +346,11 @@
         "EnemyRange": 8.0,
         "SmartRange": 3.0,
         "Safety": true,
-        "SafetyRange": 2.0,
+        "SafetyRange": 2.7,
         "Rotate": true,
         "StrictDirection": false,
         "CrystalDestruction": true,
-        "DoubleHoles": false,
+        "DoubleHoles": true,
         "HoleCheck": false,
         "WhileEating": true,
         "SelfDisable": false,
@@ -562,9 +562,9 @@
       }
     },
     "SpeedMine": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "Switch": "AltPickup",
         "Range": 5.0,
