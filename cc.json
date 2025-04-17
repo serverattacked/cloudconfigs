@@ -5,8 +5,8 @@
       "Settings": {
         "Enabled": false,
         "Key": -1,
-        "Delay": 2500,
-        "Clientside": false,
+        "Delay": 4597,
+        "Clientside": true,
         "GreenText": false,
         "Distance": true,
         "BlocksMined": true,
@@ -29,7 +29,7 @@
         "Key": -1,
         "Switch": "Require",
         "HitDelay": "Custom",
-        "Speed": 8.5,
+        "Speed": 8.3,
         "Rotate": "Hold",
         "Swing": "Mainhand",
         "Range": 6.0,
@@ -61,7 +61,7 @@
         "Instant": true,
         "Inhibit": false,
         "Place": true,
-        "DoublePlace": true,
+        "DoublePlace": false,
         "PlaceSpeed": 20.0,
         "PlaceRange": 6.0,
         "PlaceWallsRange": 6.0,
@@ -129,7 +129,7 @@
       "Status": false,
       "Settings": {
         "Enabled": false,
-        "Key": -1,
+        "Key": 66,
         "Switch": "Silent",
         "Mode": "Full",
         "Head": true,
@@ -561,9 +561,9 @@
       }
     },
     "SpeedMine": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "Switch": "AltPickup",
         "Range": 5.0,
