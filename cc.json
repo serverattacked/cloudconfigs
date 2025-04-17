@@ -49,9 +49,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "Attack": true,
         "AttackSpeed": 20.0,
@@ -77,7 +77,7 @@
         "Extrapolation": 0,
         "EnemyRange": 10.0,
         "ChestBreak": false,
-        "Asynchronous": true,
+        "Asynchronous": false,
         "GameLoop": false,
         "LoopDelay": 50,
         "WhileEating": "Both",
@@ -90,7 +90,7 @@
         "KickThreshold": 5,
         "FaceplaceMode": "Dynamic",
         "FaceplaceSpeed": "Custom",
-        "FaceplaceDelay": 20,
+        "FaceplaceDelay": 0,
         "HealthPlace": true,
         "Health": 6.2,
         "ArmorPlace": true,
@@ -203,9 +203,9 @@
       }
     },
     "FakePlayer": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "Health": 20.0,
         "Absorption": 16,
@@ -241,9 +241,9 @@
       }
     },
     "FeetTrap": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "Switch": "Silent",
         "Timing": "Sequential",
@@ -344,9 +344,9 @@
         "Delay": 0,
         "Range": 5.0,
         "EnemyRange": 8.0,
-        "SmartRange": 3.0,
-        "Safety": true,
-        "SafetyRange": 2.7,
+        "SmartRange": 3.4,
+        "Safety": false,
+        "SafetyRange": 3.2,
         "Rotate": true,
         "StrictDirection": false,
         "CrystalDestruction": true,
@@ -562,9 +562,9 @@
       }
     },
     "SpeedMine": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "Switch": "AltPickup",
         "Range": 5.0,
