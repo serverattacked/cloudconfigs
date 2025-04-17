@@ -690,12 +690,12 @@
         "Enabled": true,
         "Key": -1,
         "TranslateX": 0.0,
-        "TranslateY": 0.0,
-        "TranslateZ": 0.0,
+        "TranslateY": -0.3,
+        "TranslateZ": -0.4,
         "RotateX": 0,
         "RotateY": 0,
         "RotateZ": 0,
-        "ScaleX": 1.0,
+        "ScaleX": 1.4,
         "ScaleY": 1.0,
         "ScaleZ": 1.0
       }
