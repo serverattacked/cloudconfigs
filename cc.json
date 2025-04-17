@@ -29,7 +29,7 @@
         "Key": -1,
         "Switch": "Require",
         "HitDelay": "Custom",
-        "Speed": 8.3,
+        "Speed": 7.6,
         "Rotate": "Hold",
         "Swing": "Mainhand",
         "Range": 6.0,
@@ -151,9 +151,9 @@
       }
     },
     "Blocker": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "Switch": "Silent",
         "Asynchronous": false,
@@ -164,7 +164,7 @@
         "StrictDirection": true,
         "CrystalDestruction": true,
         "WhileEating": true,
-        "Feet": true,
+        "Feet": false,
         "Head": true,
         "Render": true
       }
@@ -241,9 +241,9 @@
       }
     },
     "FeetTrap": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "Switch": "Silent",
         "Timing": "Sequential",
@@ -297,7 +297,8 @@
       "Status": true,
       "Settings": {
         "Enabled": true,
-        "Key": -1
+        "Key": -1,
+        "Mode": "Gamma"
       }
     },
     "HitboxDesync": {
@@ -561,9 +562,9 @@
       }
     },
     "SpeedMine": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "Switch": "AltPickup",
         "Range": 5.0,
@@ -618,7 +619,7 @@
       "Status": false,
       "Settings": {
         "Enabled": false,
-        "Key": 342,
+        "Key": 341,
         "OffhandOverride": true,
         "DeathDisable": true,
         "LoginDisable": true
