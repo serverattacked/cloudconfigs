@@ -28,8 +28,8 @@
         "Enabled": true,
         "Key": -1,
         "Switch": "Require",
-        "HitDelay": "Vanilla",
-        "Speed": 20.0,
+        "HitDelay": "Custom",
+        "Speed": 8.5,
         "Rotate": "Hold",
         "Swing": "Mainhand",
         "Range": 6.0,
@@ -49,9 +49,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "Attack": true,
         "AttackSpeed": 20.0,
@@ -474,7 +474,7 @@
       "Settings": {
         "Enabled": true,
         "Key": -1,
-        "Item": "Totem",
+        "Item": "Crystal",
         "Health": 16,
         "ElytraCheck": true,
         "FallDistance": 20.0,
@@ -561,15 +561,15 @@
       }
     },
     "SpeedMine": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "Switch": "AltPickup",
         "Range": 5.0,
         "Speed": 1.0,
         "Rotate": "Packet",
-        "Auto": false,
+        "Auto": true,
         "CityOnly": false,
         "HoleCheck": false,
         "SwitchReset": true,
