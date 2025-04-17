@@ -151,9 +151,9 @@
       }
     },
     "Blocker": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "Switch": "Silent",
         "Asynchronous": false,
