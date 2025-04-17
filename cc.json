@@ -1,0 +1,720 @@
+{
+  "Modules": {
+    "Announcer": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Delay": 3,
+        "Clientside": false,
+        "GreenText": false,
+        "Distance": true,
+        "BlocksMined": true,
+        "BlocksPlaced": true,
+        "Eating": true
+      }
+    },
+    "Armor": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "ArmorDurability": "Percentage"
+      }
+    },
+    "Aura": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Switch": "Require",
+        "HitDelay": "Custom",
+        "Speed": 7.2,
+        "Rotate": "Hold",
+        "Swing": "Mainhand",
+        "Range": 6.0,
+        "Raytrace": false,
+        "WallsRange": 5.0,
+        "TicksExisted": 0,
+        "Players": true,
+        "Friends": false,
+        "Animals": false,
+        "Hostiles": false,
+        "Passives": false,
+        "Ambient": false,
+        "Invisibles": false,
+        "Boats": false,
+        "ShulkerBullets": true,
+        "Mode": "Both"
+      }
+    },
+    "AutoCrystal": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 71,
+        "Attack": true,
+        "AttackSpeed": 20.0,
+        "AttackRange": 6.0,
+        "AttackWallsRange": 6.0,
+        "AntiWeakness": "Silent",
+        "Instant": true,
+        "Inhibit": true,
+        "Place": true,
+        "DoublePlace": false,
+        "PlaceSpeed": 20.0,
+        "PlaceRange": 6.0,
+        "PlaceWallsRange": 6.0,
+        "Placements": "Native",
+        "BlockDestruction": true,
+        "Switch": "Silent",
+        "Sequential": "Strong",
+        "Rotate": "Normal",
+        "Swing": "Default",
+        "YawStep": false,
+        "YawStepThreshold": 64,
+        "Raytrace": false,
+        "Extrapolation": 0,
+        "EnemyRange": 10.0,
+        "ChestBreak": false,
+        "Asynchronous": true,
+        "GameLoop": true,
+        "LoopDelay": 0,
+        "WhileEating": "Both",
+        "GodSync": false,
+        "Predictions": 10,
+        "Offset": 0,
+        "GodSwing": "Normal",
+        "Fast": false,
+        "AntiKick": false,
+        "KickThreshold": 5,
+        "FaceplaceMode": "Dynamic",
+        "FaceplaceSpeed": "Custom",
+        "FaceplaceDelay": 20,
+        "HealthPlace": true,
+        "Health": 4.5,
+        "ArmorPlace": true,
+        "Percentage": 20,
+        "MinimumDamage": 6.0,
+        "MaximumSelfDamage": 10.0,
+        "LethalMultiplier": 2.0,
+        "AntiSuicide": true,
+        "IgnoreTerrain": true,
+        "Animation": "Static",
+        "Mode": "Fade",
+        "Duration": 300,
+        "Smoothness": 1,
+        "RenderMode": "Both",
+        "Icon": false,
+        "IconScale": 3,
+        "IconRadius": 2.0
+      }
+    },
+    "AutoReconnect": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Delay": 5
+      }
+    },
+    "AutoRespawn": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1
+      }
+    },
+    "AutoTrap": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Switch": "Silent",
+        "Mode": "Full",
+        "Head": true,
+        "Asynchronous": true,
+        "BPT": 9,
+        "Delay": 0,
+        "Range": 5.0,
+        "EnemyRange": 8.0,
+        "Await": false,
+        "Rotate": true,
+        "StrictDirection": false,
+        "CrystalDestruction": true,
+        "HoleCheck": true,
+        "AntiStep": false,
+        "WhileEating": true,
+        "SelfDisable": false,
+        "ItemDisable": true,
+        "Render": true
+      }
+    },
+    "Blocker": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Switch": "Silent",
+        "Asynchronous": true,
+        "BPT": 4,
+        "Delay": 0,
+        "Range": 5.0,
+        "Rotate": true,
+        "StrictDirection": false,
+        "CrystalDestruction": true,
+        "WhileEating": true,
+        "Feet": true,
+        "Head": true,
+        "Render": true
+      }
+    },
+    "Chams": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Players": true,
+        "Hostiles": false,
+        "Passives": false,
+        "EntityPulse": false,
+        "EntityShine": false,
+        "EntityMode": "Both",
+        "DamageModify": false,
+        "Crystals": true,
+        "CrystalPulse": false,
+        "CrystalShine": false,
+        "CrystalMode": "Outline"
+      }
+    },
+    "Criticals": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Mode": "Packet"
+      }
+    },
+    "CrosshairIndicators": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1
+      }
+    },
+    "FakePlayer": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Health": 15.7,
+        "Absorption": 16,
+        "Movement": "None",
+        "Velocity": 0.3,
+        "ChangeDirection": false,
+        "Timeout": 5
+      }
+    },
+    "FastFall": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Height": 4.9
+      }
+    },
+    "FastLatency": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Delay": 100,
+        "SpikeNotifier": false,
+        "Threshold": 30
+      }
+    },
+    "FastUse": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1
+      }
+    },
+    "FeetTrap": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 86,
+        "Switch": "Silent",
+        "Timing": "Sequential",
+        "BPT": 6,
+        "Delay": 0,
+        "Range": 5,
+        "Await": true,
+        "Rotate": true,
+        "StrictDirection": true,
+        "CrystalDestruction": true,
+        "Center": false,
+        "Floor": true,
+        "Extension": true,
+        "WhileEating": true,
+        "SelfDisable": false,
+        "JumpDisable": true,
+        "ItemDisable": true,
+        "StepToggle": false,
+        "SpeedToggle": false,
+        "Render": true
+      }
+    },
+    "Font": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "CustomFont": false,
+        "Name": "Verdana",
+        "Size": 18,
+        "Style": "Plain",
+        "Global": false,
+        "XOffset": 0,
+        "YOffset": -2,
+        "WidthOffset": 0,
+        "HeightOffset": 0,
+        "ShadowMode": "Default",
+        "ShadowOffset": 0.5
+      }
+    },
+    "Freecam": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 77,
+        "HorizontalSpeed": 0.4,
+        "VerticalSpeed": 0.4
+      }
+    },
+    "Fullbright": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1
+      }
+    },
+    "HitboxDesync": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 67,
+        "Alternating": false,
+        "Minimal": false,
+        "Specific": false,
+        "Close": false,
+        "SelfDisable": true,
+        "JumpDisable": true
+      }
+    },
+    "HoleESP": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Range": 10,
+        "Asynchronous": false,
+        "DoubleHoles": true,
+        "QuadHoles": true,
+        "Fade": false,
+        "Fill": "Normal",
+        "FillHeight": 0.1,
+        "Outline": "Normal",
+        "OutlineHeight": 0.1
+      }
+    },
+    "HoleFill": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Switch": "Silent",
+        "Mode": "Smart",
+        "Webs": false,
+        "SelfWeb": false,
+        "Asynchronous": true,
+        "BPT": 1,
+        "Delay": 0,
+        "Range": 5.0,
+        "EnemyRange": 8.0,
+        "SmartRange": 3.0,
+        "Safety": true,
+        "SafetyRange": 2.0,
+        "Rotate": true,
+        "StrictDirection": false,
+        "CrystalDestruction": true,
+        "DoubleHoles": false,
+        "HoleCheck": false,
+        "WhileEating": true,
+        "SelfDisable": false,
+        "ItemDisable": false,
+        "Render": true
+      }
+    },
+    "HudEditor": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1
+      }
+    },
+    "Indicators": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1
+      }
+    },
+    "ItemScroller": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Delay": 0
+      }
+    },
+    "ModuleList": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Mode": "Up"
+      }
+    },
+    "MultiTask": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1
+      }
+    },
+    "NameProtect": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Name": "drughack.cc"
+      }
+    },
+    "NameTags": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "GameMode": false,
+        "Ping": true,
+        "EntityID": false,
+        "Health": true,
+        "TotemPops": true,
+        "AntiBot": false,
+        "Items": true,
+        "Enchantments": false,
+        "Durability": true,
+        "ItemName": true,
+        "Scale": 30,
+        "Border": "Both"
+      }
+    },
+    "NoRender": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "HurtCamera": true,
+        "Explosions": true,
+        "FireOverlay": true,
+        "BlockOverlay": false,
+        "LiquidOverlay": false,
+        "SnowOverlay": false,
+        "PumpkinOverlay": true,
+        "PortalOverlay": false,
+        "TotemAnimation": true,
+        "BossBar": false,
+        "Vignette": true,
+        "Blindness": true,
+        "Fog": false,
+        "SignText": false,
+        "Armor": false,
+        "LimbSwing": false,
+        "Corpses": false,
+        "TileEntities": "Never",
+        "TileDistance": 10
+      }
+    },
+    "NoSlow": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Items": true,
+        "SoulSand": false,
+        "SlimeBlocks": false,
+        "HoneyBlocks": false,
+        "NCPStrict": false,
+        "AirStrict": false,
+        "GrimStrict": false,
+        "Inventory Move": true
+      }
+    },
+    "Notifications": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1
+      }
+    },
+    "Offhand": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Item": "Crystal",
+        "Health": 17,
+        "ElytraCheck": true,
+        "FallDistance": 20.0,
+        "UseGapple": true,
+        "LethalOverride": true,
+        "TickAbort": true,
+        "SmartMine": false,
+        "AntiMace": false,
+        "MaceRange": 12.0
+      }
+    },
+    "Reach": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Amount": 5.0
+      }
+    },
+    "Renders": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Render Mode": "Fade"
+      }
+    },
+    "Replenish": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Switch": "Swap",
+        "Threshold": 12,
+        "MinimumCount": 48
+      }
+    },
+    "Rotations": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Movement Fix": false,
+        "Snap Back": false
+      }
+    },
+    "SelfTrap": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1,
+        "Switch": "Silent",
+        "Mode": "Full",
+        "Head": true,
+        "Asynchronous": true,
+        "BPT": 4,
+        "Delay": 0,
+        "Await": false,
+        "Rotate": true,
+        "StrictDirection": false,
+        "CrystalDestruction": true,
+        "AntiStep": false,
+        "AntiBomb": false,
+        "HoleCheck": false,
+        "WhileEating": true,
+        "SelfDisable": false,
+        "ItemDisable": true,
+        "HoleDisable": true,
+        "Render": true
+      }
+    },
+    "Speed": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 88,
+        "Mode": "StrafeStrict",
+        "Speed": 1.2,
+        "Use Timer": false,
+        "Timer Bypass": false,
+        "Timer Multiplier": 1.08,
+        "Bypass Threshold": 25.0,
+        "Speed In Water": false
+      }
+    },
+    "SpeedMine": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": 96,
+        "Switch": "AltPickup",
+        "Range": 5.0,
+        "Speed": 1.0,
+        "Rotate": "Normal",
+        "Auto": false,
+        "CityOnly": false,
+        "HoleCheck": false,
+        "SwitchReset": true,
+        "Double": false,
+        "Sequence": "Surround",
+        "Instant": false,
+        "InstantDelay": 0.0,
+        "InstantTimeout": 60.0,
+        "Grim": false,
+        "Strict": true,
+        "WhileEating": true,
+        "Render": "Both",
+        "Animation": "Expand",
+        "Color": "Smooth",
+        "InstantRender": "None"
+      }
+    },
+    "Sprint": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Mode": "Rage"
+      }
+    },
+    "Step": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 90,
+        "Mode": "VANILLA",
+        "Height": 2.0,
+        "UseTimer": false
+      }
+    },
+    "Strafe": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Air": true,
+        "SpeedInWater": false
+      }
+    },
+    "Suicide": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 342,
+        "OffhandOverride": true,
+        "DeathDisable": true,
+        "LoginDisable": true
+      }
+    },
+    "TextRadar": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Update Delay": 5.0
+      }
+    },
+    "TickShift": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 90,
+        "MaxTicks": 11,
+        "Delay": 2,
+        "Speed": 2.0
+      }
+    },
+    "Totems": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": -1
+      }
+    },
+    "UI": {
+      "Status": false,
+      "Settings": {
+        "Enabled": false,
+        "Key": 344,
+        "Red": 56,
+        "Green": 127,
+        "Blue": 87,
+        "Alpha": 255
+      }
+    },
+    "Velocity": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Horizontal": 0,
+        "Vertical": 0,
+        "Explosions": true,
+        "Pause": true,
+        "AntiPush": true,
+        "AntiBlockPush": true,
+        "AntiLiquidPush": false,
+        "AntiFishingRod": false
+      }
+    },
+    "ViewClip": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Extend": false,
+        "Distance": 3.5
+      }
+    },
+    "ViewModel": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "TranslateX": 0.0,
+        "TranslateY": -0.4,
+        "TranslateZ": -0.5,
+        "RotateX": -1,
+        "RotateY": -1,
+        "RotateZ": 0,
+        "ScaleX": 1.5,
+        "ScaleY": 1.0,
+        "ScaleZ": 1.0
+      }
+    },
+    "Watermark": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Text": "drughack.cc"
+      }
+    },
+    "Welcomer": {
+      "Status": true,
+      "Settings": {
+        "Enabled": true,
+        "Key": -1,
+        "Text": "Hello %player%! Have fun with drughack.cc"
+      }
+    }
+  }
+}
