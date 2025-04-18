@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "Holding": false,
         "IsMouse": false,
@@ -297,7 +297,7 @@
         "Range": 5,
         "Await": true,
         "Rotate": true,
-        "StrictDirection": true,
+        "StrictDirection": false,
         "CrystalDestruction": true,
         "Center": false,
         "Floor": true,
@@ -619,8 +619,8 @@
         "Key": -1,
         "Holding": false,
         "IsMouse": false,
-        "Switch": "Swap",
-        "Threshold": 64,
+        "Switch": "Quick",
+        "Threshold": 28,
         "MinimumCount": 48
       }
     },
