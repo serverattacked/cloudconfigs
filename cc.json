@@ -172,8 +172,8 @@
         "holding": true,
         "ismouse": true,
         "Switch": "Silent",
-        "Delay": 1,
-        "Freuqency": 1,
+        "Delay": 0,
+        "Freuqency": 15,
         "AntiWaste": "Avoid"
       }
     },
