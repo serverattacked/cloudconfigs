@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "Holding": false,
         "IsMouse": false,
@@ -679,9 +679,9 @@
       }
     },
     "SpeedMine": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "Holding": false,
         "IsMouse": false,
@@ -793,7 +793,7 @@
         "Red": 130,
         "Green": 202,
         "Blue": 255,
-        "Alpha": 255
+        "Alpha": 136
       }
     },
     "Velocity": {
