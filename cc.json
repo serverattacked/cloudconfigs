@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "Holding": false,
         "IsMouse": false,
@@ -174,7 +174,7 @@
         "Switch": "Silent",
         "Delay": 0,
         "Freuqency": 15,
-        "AntiWaste": "None"
+        "AntiWaste": "Avoid"
       }
     },
     "Blocker": {
@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "Holding": false,
         "IsMouse": false,
@@ -679,9 +679,9 @@
       }
     },
     "SpeedMine": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "Holding": false,
         "IsMouse": false,
