@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -80,7 +80,7 @@
         "Rotate": "Normal",
         "Swing": "Default",
         "YawStep": false,
-        "YawStepThreshold": 75,
+        "YawStepThreshold": 160,
         "Raytrace": false,
         "Extrapolation": 0,
         "EnemyRange": 10.0,
@@ -102,14 +102,14 @@
         "HealthPlace": true,
         "Health": 6.2,
         "ArmorPlace": true,
-        "Percentage": 23,
-        "MinimumDamage": 6.0,
-        "MaximumSelfDamage": 10.0,
+        "Percentage": 24,
+        "MinimumDamage": 7.9,
+        "MaximumSelfDamage": 36.0,
         "LethalMultiplier": 2.0,
         "AntiSuicide": false,
         "IgnoreTerrain": true,
         "Animation": "Slide",
-        "Mode": "Fade",
+        "Mode": "Shrink",
         "Duration": 300,
         "Smoothness": 1,
         "RenderMode": "Both",
@@ -238,9 +238,9 @@
       }
     },
     "FakePlayer": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false,
@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "holding": false,
         "ismouse": false,
