@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "Holding": false,
         "IsMouse": false,
@@ -178,22 +178,22 @@
       }
     },
     "Blocker": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "Holding": false,
         "IsMouse": false,
         "Switch": "Silent",
-        "Asynchronous": true,
-        "BPT": 4,
+        "Asynchronous": false,
+        "BPT": 6,
         "Delay": 0,
         "Range": 5.0,
         "Rotate": true,
         "StrictDirection": false,
         "CrystalDestruction": true,
         "WhileEating": true,
-        "Feet": true,
+        "Feet": false,
         "Head": true,
         "Render": true
       }
