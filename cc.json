@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "Holding": false,
         "IsMouse": false,
@@ -620,7 +620,7 @@
         "Holding": false,
         "IsMouse": false,
         "Switch": "Swap",
-        "Threshold": 12,
+        "Threshold": 64,
         "MinimumCount": 48
       }
     },
