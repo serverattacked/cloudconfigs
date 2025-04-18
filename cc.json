@@ -215,7 +215,7 @@
         "Crystals": true,
         "CrystalPulse": false,
         "CrystalShine": true,
-        "CrystalMode": "Both"
+        "CrystalMode": "Fill"
       }
     },
     "Criticals": {
@@ -284,18 +284,18 @@
       }
     },
     "FeetTrap": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "holding": false,
         "ismouse": false,
-        "Switch": "Silent",
+        "Switch": "AltSwap",
         "Timing": "Sequential",
         "BPT": 6,
-        "Delay": 0,
+        "Delay": 1,
         "Range": 5,
-        "Await": true,
+        "Await": false,
         "Rotate": true,
         "StrictDirection": false,
         "CrystalDestruction": true,
@@ -679,9 +679,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "holding": false,
         "ismouse": false,
