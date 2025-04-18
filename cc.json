@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "holding": false,
         "ismouse": false,
@@ -585,7 +585,7 @@
         "ElytraCheck": true,
         "FallDistance": 20.0,
         "UseGapple": true,
-        "LethalOverride": false,
+        "LethalOverride": true,
         "TickAbort": true,
         "SmartMine": false,
         "AntiMace": false,
@@ -679,9 +679,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "holding": false,
         "ismouse": false,
