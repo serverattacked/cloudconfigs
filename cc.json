@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "Holding": false,
         "IsMouse": false,
@@ -65,7 +65,7 @@
         "AttackSpeed": 20.0,
         "AttackRange": 6.0,
         "AttackWallsRange": 6.0,
-        "AntiWeakness": "None",
+        "AntiWeakness": "Silent",
         "Instant": true,
         "Inhibit": true,
         "Place": true,
@@ -173,8 +173,8 @@
         "IsMouse": true,
         "Switch": "Silent",
         "Delay": 0,
-        "Freuqency": 1,
-        "AntiWaste": "Avoid"
+        "Freuqency": 15,
+        "AntiWaste": "None"
       }
     },
     "Blocker": {
@@ -209,7 +209,7 @@
         "Hostiles": false,
         "Passives": false,
         "EntityPulse": false,
-        "EntityShine": true,
+        "EntityShine": false,
         "EntityMode": "Both",
         "DamageModify": false,
         "Crystals": true,
@@ -238,9 +238,9 @@
       }
     },
     "FakePlayer": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "Holding": false,
         "IsMouse": false,
@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "Holding": false,
         "IsMouse": false,
@@ -349,7 +349,7 @@
         "Key": -1,
         "Holding": false,
         "IsMouse": false,
-        "Mode": "Gamma"
+        "Mode": "Potion"
       }
     },
     "HitboxDesync": {
@@ -543,7 +543,7 @@
         "Key": -1,
         "Holding": false,
         "IsMouse": false,
-        "InBlocks": true,
+        "InBlocks": false,
         "Spoof": false
       }
     },
@@ -744,9 +744,9 @@
       "Status": false,
       "Settings": {
         "Enabled": false,
-        "Key": -1,
+        "Key": 4,
         "Holding": false,
-        "IsMouse": false,
+        "IsMouse": true,
         "OffhandOverride": true,
         "DeathDisable": true,
         "LoginDisable": true
