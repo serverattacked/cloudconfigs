@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "Holding": false,
         "IsMouse": false,
@@ -259,7 +259,7 @@
         "Key": -1,
         "Holding": false,
         "IsMouse": false,
-        "Height": 3.0
+        "Height": 4.8
       }
     },
     "FastLatency": {
@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "Status": false,
+      "Status": true,
       "Settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "Holding": false,
         "IsMouse": false,
@@ -718,9 +718,9 @@
       }
     },
     "Step": {
-      "Status": true,
+      "Status": false,
       "Settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 90,
         "Holding": false,
         "IsMouse": false,
