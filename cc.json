@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -129,9 +129,9 @@
       }
     },
     "AutoRespawn": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false
