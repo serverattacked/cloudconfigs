@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -144,9 +144,9 @@
         "Key": 66,
         "holding": false,
         "ismouse": false,
-        "Switch": "AltSwap",
+        "Switch": "Silent",
         "Mode": "Partial",
-        "Head": true,
+        "Head": false,
         "Asynchronous": false,
         "BPT": 6,
         "Delay": 0,
@@ -156,7 +156,7 @@
         "Rotate": true,
         "StrictDirection": false,
         "CrystalDestruction": true,
-        "HoleCheck": true,
+        "HoleCheck": false,
         "AntiStep": false,
         "WhileEating": true,
         "SelfDisable": false,
@@ -238,9 +238,9 @@
       }
     },
     "FakePlayer": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false,
