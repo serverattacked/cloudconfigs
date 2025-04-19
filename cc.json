@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -109,13 +109,13 @@
       }
     },
     "AutoEZ": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false,
-        "Text": "[user], get good, get drughack.cc"
+        "Text": "[user], get good, get dryghack.cc"
       }
     },
     "AutoReconnect": {
@@ -173,7 +173,7 @@
         "ismouse": true,
         "Switch": "Silent",
         "Delay": 0,
-        "Freuqency": 3,
+        "Freuqency": 7,
         "AntiWaste": "Avoid"
       }
     },
