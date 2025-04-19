@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -238,9 +238,9 @@
       }
     },
     "FakePlayer": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "holding": false,
         "ismouse": false,
@@ -284,13 +284,13 @@
       }
     },
     "FeetTrap": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "holding": false,
         "ismouse": false,
-        "Switch": "AltSwap",
+        "Switch": "Silent",
         "Timing": "Sequential",
         "BPT": 6,
         "Delay": 1,
@@ -679,9 +679,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "holding": false,
         "ismouse": false,
