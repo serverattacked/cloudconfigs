@@ -118,6 +118,16 @@
         "IconRadius": 2.0
       }
     },
+    "AutoEZ": {
+      "enabled": true,
+      "settings": {
+        "Enabled": true,
+        "Key": -1,
+        "holding": false,
+        "ismouse": false,
+        "Text": "[user], get good, get drughack.cc"
+      }
+    },
     "AutoReconnect": {
       "enabled": false,
       "settings": {
@@ -193,7 +203,7 @@
         "StrictDirection": false,
         "CrystalDestruction": true,
         "WhileEating": true,
-        "Feet": true,
+        "Feet": false,
         "Head": true,
         "Render": true
       }
@@ -238,9 +248,9 @@
       }
     },
     "FakePlayer": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "holding": false,
         "ismouse": false,
@@ -312,16 +322,16 @@
       }
     },
     "Font": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false,
         "CustomFont": false,
         "Name": "Verdana",
         "Size": 18,
-        "Style": "Plain",
+        "Style": "Bold",
         "Global": false,
         "XOffset": 0,
         "YOffset": -2,
@@ -599,7 +609,8 @@
         "Key": -1,
         "holding": false,
         "ismouse": false,
-        "Amount": 6.0
+        "Amount": 6.0,
+        "NoEntityTrace": true
       }
     },
     "Renders": {
