@@ -145,7 +145,7 @@
         "holding": false,
         "ismouse": false,
         "Switch": "AltSwap",
-        "Mode": "Full",
+        "Mode": "Partial",
         "Head": true,
         "Asynchronous": false,
         "BPT": 6,
@@ -173,7 +173,7 @@
         "ismouse": true,
         "Switch": "Silent",
         "Delay": 0,
-        "Freuqency": 15,
+        "Freuqency": 3,
         "AntiWaste": "Avoid"
       }
     },
@@ -193,7 +193,7 @@
         "StrictDirection": false,
         "CrystalDestruction": true,
         "WhileEating": true,
-        "Feet": false,
+        "Feet": true,
         "Head": true,
         "Render": true
       }
@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 86,
         "holding": false,
         "ismouse": false,
@@ -543,7 +543,7 @@
         "Key": -1,
         "holding": false,
         "ismouse": false,
-        "InBlocks": false,
+        "InBlocks": true,
         "Spoof": false
       }
     },
@@ -679,9 +679,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "holding": false,
         "ismouse": false,
