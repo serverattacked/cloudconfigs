@@ -89,13 +89,6 @@
         "GameLoop": false,
         "LoopDelay": 50,
         "WhileEating": "Both",
-        "GodSync": false,
-        "Predictions": 10,
-        "Offset": 0,
-        "GodSwing": "Normal",
-        "Fast": false,
-        "AntiKick": false,
-        "KickThreshold": 5,
         "FaceplaceMode": "Dynamic",
         "FaceplaceSpeed": "Custom",
         "FaceplaceDelay": 0,
@@ -112,10 +105,7 @@
         "Mode": "Shrink",
         "Duration": 300,
         "Smoothness": 1,
-        "RenderMode": "Both",
-        "Icon": false,
-        "IconScale": 3,
-        "IconRadius": 2.0
+        "RenderMode": "Both"
       }
     },
     "AutoEZ": {
@@ -757,10 +747,7 @@
         "Enabled": false,
         "Key": 4,
         "holding": false,
-        "ismouse": true,
-        "OffhandOverride": true,
-        "DeathDisable": true,
-        "LoginDisable": true
+        "ismouse": true
       }
     },
     "TextRadar": {
