@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -93,7 +93,7 @@
         "FaceplaceSpeed": "Custom",
         "FaceplaceDelay": 0,
         "HealthPlace": true,
-        "Health": 6.2,
+        "Health": 7.9,
         "ArmorPlace": true,
         "Percentage": 24,
         "MinimumDamage": 7.9,
@@ -115,7 +115,7 @@
         "Key": -1,
         "holding": false,
         "ismouse": false,
-        "Text": "[user], get good, get dryghack.cc"
+        "Text": "[user], get good, get drughack.cc"
       }
     },
     "AutoReconnect": {
@@ -129,9 +129,9 @@
       }
     },
     "AutoRespawn": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "holding": false,
         "ismouse": false
@@ -593,9 +593,9 @@
       }
     },
     "Reach": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "holding": false,
         "ismouse": false,
@@ -680,9 +680,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 96,
         "holding": false,
         "ismouse": false,
