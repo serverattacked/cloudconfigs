@@ -35,7 +35,7 @@
         "ismouse": false,
         "Switch": "Require",
         "HitDelay": "Custom",
-        "Speed": 8.9,
+        "Speed": 8.7,
         "Rotate": "Hold",
         "Swing": "Mainhand",
         "Range": 6.0,
@@ -119,9 +119,9 @@
       }
     },
     "AutoEZ": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false,
@@ -342,9 +342,9 @@
       }
     },
     "Freecam": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 77,
         "holding": false,
         "ismouse": false,
