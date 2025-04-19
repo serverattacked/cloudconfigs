@@ -55,9 +55,9 @@
       }
     },
     "AutoCrystal": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": 71,
         "holding": false,
         "ismouse": false,
@@ -109,9 +109,9 @@
       }
     },
     "AutoEZ": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "holding": false,
         "ismouse": false,
@@ -238,9 +238,9 @@
       }
     },
     "FakePlayer": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": -1,
         "holding": false,
         "ismouse": false,
