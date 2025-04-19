@@ -596,7 +596,7 @@
       "enabled": true,
       "settings": {
         "Enabled": true,
-        "Key": -1,
+        "Key": 96,
         "holding": false,
         "ismouse": false,
         "Amount": 6.0,
@@ -680,9 +680,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "holding": false,
         "ismouse": false,
