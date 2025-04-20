@@ -69,7 +69,7 @@
         "Instant": true,
         "Inhibit": true,
         "Place": true,
-        "DoublePlace": true,
+        "DoublePlace": false,
         "PlaceSpeed": 20.0,
         "PlaceRange": 6.0,
         "PlaceWallsRange": 6.0,
@@ -86,7 +86,7 @@
         "EnemyRange": 10.0,
         "ChestBreak": false,
         "Asynchronous": false,
-        "GameLoop": true,
+        "GameLoop": false,
         "LoopDelay": 0,
         "WhileEating": "Both",
         "FaceplaceMode": "Dynamic",
@@ -109,9 +109,9 @@
       }
     },
     "AutoEZ": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
-        "Enabled": true,
+        "Enabled": false,
         "Key": -1,
         "holding": false,
         "ismouse": false,
