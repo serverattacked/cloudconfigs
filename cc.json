@@ -284,9 +284,9 @@
       }
     },
     "FeetTrap": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 86,
         "holding": false,
         "ismouse": false,
@@ -593,9 +593,9 @@
       }
     },
     "Reach": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "holding": false,
         "ismouse": false,
@@ -680,9 +680,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": 96,
         "holding": false,
         "ismouse": false,
