@@ -56,7 +56,7 @@
       }
     },
     "AutoCrystal": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
         "Break": true,
         "Delay": 0.0,
@@ -92,7 +92,7 @@
         "Extrapolation": 0,
         "EnemyRange": 10.0,
         "WhileEating": "Both",
-        "Enabled": false,
+        "Enabled": true,
         "Key": "71, false, false"
       }
     },
@@ -244,7 +244,7 @@
       }
     },
     "FeetTrap": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
         "Switch": "Silent",
         "Timing": "Sequential",
@@ -262,7 +262,7 @@
         "Self": false,
         "Jump": true,
         "Render": true,
-        "Enabled": false,
+        "Enabled": true,
         "Key": "86, false, false"
       }
     },
@@ -302,13 +302,13 @@
       }
     },
     "HitboxDesync": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
         "Alternating": false,
         "Minimal": false,
         "Specific": false,
         "Close": false,
-        "Enabled": false,
+        "Enabled": true,
         "Key": "67, false, false"
       }
     },
@@ -573,9 +573,9 @@
       }
     },
     "SpeedMine": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Switch": "Silent",
+        "Switch": "AltPickup",
         "Range": 6.0,
         "Speed": 1.0,
         "Rotate": "Packet",
@@ -595,7 +595,7 @@
         "Animation": "Expand",
         "Color": "Custom",
         "InstantRender": "None",
-        "Enabled": false,
+        "Enabled": true,
         "Key": "96, false, false"
       }
     },
