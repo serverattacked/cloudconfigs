@@ -189,6 +189,10 @@
         "CrystalPulse": false,
         "CrystalShine": true,
         "CrystalMode": "Fill",
+        "Items": true,
+        "ItemPulse": false,
+        "ItemShine": false,
+        "ItemMode": "Both",
         "Enabled": true,
         "Key": "-1, false, false"
       }
@@ -205,16 +209,6 @@
       "enabled": true,
       "settings": {
         "Enabled": true,
-        "Key": "-1, false, false"
-      }
-    },
-    "FakePlayer": {
-      "enabled": false,
-      "settings": {
-        "Name": "drughack.cc",
-        "Health": 20.0,
-        "Absorption": 16,
-        "Enabled": false,
         "Key": "-1, false, false"
       }
     },
@@ -244,7 +238,7 @@
       }
     },
     "FeetTrap": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "Switch": "Silent",
         "Timing": "Sequential",
@@ -262,7 +256,7 @@
         "Self": false,
         "Jump": true,
         "Render": true,
-        "Enabled": true,
+        "Enabled": false,
         "Key": "86, false, false"
       }
     },
@@ -302,13 +296,13 @@
       }
     },
     "HitboxDesync": {
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "Alternating": false,
         "Minimal": false,
         "Specific": false,
         "Close": false,
-        "Enabled": true,
+        "Enabled": false,
         "Key": "67, false, false"
       }
     },
@@ -505,6 +499,8 @@
     "RPC": {
       "enabled": false,
       "settings": {
+        "UID": true,
+        "Server": false,
         "Enabled": false,
         "Key": "-1, false, false"
       }
@@ -728,7 +724,7 @@
     "Welcomer": {
       "enabled": true,
       "settings": {
-        "Text": "Hello %p%! Have fun with drughack.cc",
+        "Text": "Hello %player%! Have fun with drughack.cc",
         "Enabled": true,
         "Key": "-1, false, false"
       }
