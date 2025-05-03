@@ -146,11 +146,11 @@
       "enabled": false,
       "settings": {
         "Switch": "Silent",
-        "Delay": 1,
+        "Delay": 0,
         "Freuqency": 1,
         "AntiWaste": "Avoid",
         "Enabled": false,
-        "Key": "2, false, true"
+        "Key": "2, true, true"
       }
     },
     "Blocker": {
@@ -189,7 +189,7 @@
         "CrystalPulse": false,
         "CrystalShine": true,
         "CrystalMode": "Fill",
-        "Items": true,
+        "Items": false,
         "ItemPulse": false,
         "ItemShine": false,
         "ItemMode": "Both",
@@ -511,7 +511,7 @@
         "Amount": 6.0,
         "NoEntityTrace": true,
         "Enabled": true,
-        "Key": "-1, false, false"
+        "Key": "96, false, false"
       }
     },
     "Renders": {
@@ -614,9 +614,9 @@
       }
     },
     "Suicide": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
-        "Enabled": false,
+        "Enabled": true,
         "Key": "4, false, true"
       }
     },
