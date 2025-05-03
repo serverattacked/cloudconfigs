@@ -188,7 +188,7 @@
         "Crystals": true,
         "CrystalPulse": false,
         "CrystalShine": true,
-        "CrystalMode": "Both",
+        "CrystalMode": "Fill",
         "Items": false,
         "ItemPulse": false,
         "ItemShine": false,
@@ -510,7 +510,7 @@
         "Amount": 6.0,
         "NoEntityTrace": true,
         "Enabled": true,
-        "Key": "-1, false, false"
+        "Key": "96, false, false"
       }
     },
     "Renders": {
@@ -568,7 +568,7 @@
       }
     },
     "SpeedMine": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
         "Switch": "AltSwap",
         "Range": 5.2,
@@ -590,7 +590,7 @@
         "Animation": "Expand",
         "Color": "Custom",
         "InstantRender": "None",
-        "Enabled": false,
+        "Enabled": true,
         "Key": "96, false, false"
       }
     },
