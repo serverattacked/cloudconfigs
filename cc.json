@@ -62,12 +62,12 @@
         "Delay": 0.0,
         "Range": 6.0,
         "WallsRange": 6.0,
-        "Weakness": "None",
+        "Weakness": "Silent",
         "Sequential": "Strong",
         "Instant": true,
         "Inhibit": true,
         "Place": true,
-        "Placements": "Protocol",
+        "Placements": "Native",
         "BlockDestruction": true,
         "FacePlace": true,
         "Health": 8.0,
@@ -238,7 +238,7 @@
       }
     },
     "FeetTrap": {
-      "enabled": false,
+      "enabled": true,
       "settings": {
         "Switch": "Silent",
         "Timing": "Vanilla",
@@ -255,7 +255,7 @@
         "WhileEating": true,
         "Jump": true,
         "Render": true,
-        "Enabled": false,
+        "Enabled": true,
         "Key": "86, false, false"
       }
     },
